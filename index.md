@@ -11,9 +11,6 @@ header:
   <h1 class="hero-title">Quantum Machine Learning</h1>
   <p class="hero-tagline">Unlocking the power of quantum algorithms to revolutionize AI.</p>
   <p>
-  <a href="/background/" class="btn-custom">Explore Background »</a>
-  <a href="/tools/" class="btn-custom">View Tools & Techniques »</a>
-  <a href="/goals/" class="btn-custom">Read Goals »</a>
   </p>
 </div>
 
