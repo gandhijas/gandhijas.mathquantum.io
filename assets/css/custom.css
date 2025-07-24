@@ -30,16 +30,16 @@ a:hover {
 }
 
 .masthead__menu-item a {
-  color: #cde6ff !important;  /* light blue text for visibility */
+  color: #ffffff !important;
+  background-color: #1e90ff; /* default blue */
   font-weight: 600;
   padding: 8px 15px;
   border-radius: 5px;
-  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+  margin: 0 5px;
 }
 
 .masthead__menu-item a:hover {
-  background-color: #1e90ff;   /* blue hover background */
-  color: #ffffff !important;   /* white text on hover */
+  background-color: #004aad;  /* darker blue on hover */
 }
 
 
