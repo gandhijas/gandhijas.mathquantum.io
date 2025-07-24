@@ -1,1 +1,10 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Background"
+    url: /background/
+  - title: "Tools & Techniques"
+    url: /tools/
+  - title: "Goals"
+    url: /goals/
 
