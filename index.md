@@ -1,7 +1,6 @@
 ---
 layout: splash
 title: "Quantum Machine Learning"
-permalink: /
 header:
   overlay_image: /assets/hero.jpg
   overlay_filter: 0.4
