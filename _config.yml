@@ -21,3 +21,4 @@ sass:
   load_paths:
     - _sass
     - assets/css
+navigation: main
