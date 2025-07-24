@@ -38,7 +38,7 @@ kramdown:
   input: GFM
   math_engine: mathjax
 
- include:
+include:
   - assets/css
 
 defaults:
