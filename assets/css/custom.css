@@ -24,20 +24,24 @@ a:hover {
 }
 
 /* === Navigation Bar === */
+/* Navigation Bar Tabs */
 .masthead {
-  background-color: #0f2f56 !important;  /* dark navy */
-  border-bottom: 3px solid #1e90ff;
+  background-color: #0f2f56 !important; /* dark navy bar */
 }
 
 .masthead__menu-item a {
-  color: #ffffff !important;
+  color: #cde6ff !important;  /* light blue text for visibility */
   font-weight: 600;
-  padding: 5px 10px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .masthead__menu-item a:hover {
-  color: #cde6ff !important;
+  background-color: #1e90ff;   /* blue hover background */
+  color: #ffffff !important;   /* white text on hover */
 }
+
 
 /* === Buttons === */
 a.btn, .btn, .btn-custom {
