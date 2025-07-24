@@ -24,3 +24,9 @@ sass:
 navigation: main
 minimal_mistakes_skin: "mint"
 
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      css: "/assets/css/custom.css"
