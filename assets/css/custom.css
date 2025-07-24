@@ -1,60 +1,10 @@
 /* Background and Text Colors */
+
+/* TEST: Change background and headers */
 body {
-  background-color: #f0f6fb; /* Light blue background */
-  color: #0a2540; /* Dark navy text for good contrast */
+  background-color: #d6eaff; /* Light test blue */
 }
 
-/* Links */
-a {
-  color: #1e90ff; /* Primary blue link color */
-  text-decoration: none;
-}
-
-a:hover {
-  color: #004aad; /* Darker blue on hover */
-}
-
-/* Headers */
 h1, h2, h3, h4, h5, h6 {
-  color: #004aad; /* QML-themed deep blue */
-}
-
-/* Navigation Bar */
-.masthead {
-  background-color: #0f2f56 !important; /* Navy blue bar */
-}
-
-.masthead__menu-item a {
-  color: #ffffff !important; /* White nav text */
-}
-
-.masthead__menu-item a:hover {
-  color: #cde6ff !important; /* Light blue hover */
-}
-
-/* Buttons */
-a.btn, .btn-custom {
-  background: linear-gradient(to right, #1e90ff, #004aad);
-  color: #fff !important;
-  padding: 10px 20px;
-  border-radius: 30px;
-  font-weight: 600;
-  transition: transform 0.2s ease-in-out;
-}
-
-a.btn:hover, .btn-custom:hover {
-  background: linear-gradient(to right, #004aad, #1e90ff);
-  transform: scale(1.05);
-}
-
-/* Notices */
-.notice--info {
-  background-color: #e6f4ff;
-  border-left: 6px solid #1e90ff;
-}
-
-/* Footer */
-.page__footer {
-  background-color: #0f2f56;
-  color: #fff;
+  color: #003366 !important; /* Dark navy headers */
 }
