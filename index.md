@@ -3,7 +3,7 @@ layout: splash
 title: "Quantum Machine Learning"
 permalink: /
 header:
-  overlay_image: /assets/images/hero.jpg
+  overlay_image: /assets/hero.jpg
   overlay_filter: 0.4
   caption: "Where Quantum Physics Meets the Future of Intelligence"
 ---
@@ -12,9 +12,9 @@ header:
   <h1 class="hero-title">Quantum Machine Learning</h1>
   <p class="hero-tagline">Unlocking the power of quantum algorithms to revolutionize AI.</p>
   <p>
-    [Explore Background »](/background/){: .btn-custom }
-    [View Tools & Techniques »](/tools/){: .btn-custom }
-    [Read Goals »](/goals/){: .btn-custom }
+  <a href="/background/" class="btn-custom">Explore Background »</a>
+  <a href="/tools/" class="btn-custom">View Tools & Techniques »</a>
+  <a href="/goals/" class="btn-custom">Read Goals »</a>
   </p>
 </div>
 
