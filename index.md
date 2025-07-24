@@ -18,7 +18,7 @@ header:
 
 # **Project Idea**
 Quantum Machine Learning (QML) combines quantum mechanics and machine learning to create algorithms that could outperform classical AI models. This project will explore how quantum circuits and qubit-based approaches can enhance learning, classification, and prediction.
-
+  
 ---
 
 {: .notice--info}
