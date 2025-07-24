@@ -1,6 +1,35 @@
-/* Background and Text Colors */
-
-/* TEST: Change background and headers */
+/* === Body & Global === */
 body {
-  background-color: red !important;
+  background-color: #f0f6fb;  /* soft light blue background */
+  color: #0a2540;             /* deep navy text */
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
 }
+
+/* === Headings === */
+h1, h2, h3, h4, h5, h6 {
+  color: #004aad;  /* quantum deep blue */
+  font-weight: 700;
+}
+
+/* === Links === */
+a {
+  color: #1e90ff;  /* link blue */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #004aad;
+  text-decoration: underline;
+}
+
+/* === Navigation Bar === */
+.masthead {
+  background-color: #0f2f56 !important;  /* dark navy */
+  border-bottom: 3px solid #1e90ff;
+}
+
+.masthead__menu-item a {
+  color: #ffffff !important;
+  font-weight: 600;
+  padding
