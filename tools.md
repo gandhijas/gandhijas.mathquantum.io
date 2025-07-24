@@ -10,51 +10,45 @@ permalink: /tools/
 - Optimization: variational quantum circuits.
 - Complex Numbers: representation of qubit states.
 
-## Tools (Optional)
-- Qiskit (IBM)
-- Python (NumPy, Matplotlib)
-- IBM Quantum Lab
 
-Quantum Machine Learning (QML) relies on a mix of **quantum principles** and **mathematical tools** from linear algebra, probability, and optimization. These foundations allow quantum circuits to process and learn from data in ways that classical systems cannot.
+Quantum Machine Learning (QML) relies on **quantum principles** and **mathematical tools** such as linear algebra, probability, and optimization.
 
 ---
 
 ## **Mathematical Foundations**
 
-- **Qubits and Superposition:** A qubit is represented as  
-  \[
-  |\psi\rangle = \alpha |0\rangle + \beta |1\rangle,
-  \quad |\alpha|^2 + |\beta|^2 = 1.
-  \]  
-  Qubits can exist in a superposition of states, unlike classical bits.
+- **Qubits and Superposition:**  
+  $$|\psi\rangle = \alpha |0\rangle + \beta |1\rangle,\ |\alpha|^2 + |\beta|^2 = 1.$$
 
-- **Quantum Gates:** Gates like **Hadamard (H)** and **Pauli-X (X)** are unitary matrices that transform qubits.  
-  Example:  
-  \[
-  H = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}.
-  \]
+- **Quantum Gates:** Gates like Hadamard (H) and Pauli-X (X) are unitary matrices that transform qubits:  
+  $$
+  H = \frac{1}{\sqrt{2}}
+  \begin{pmatrix}
+  1 & 1 \\
+  1 & -1
+  \end{pmatrix}.
+  $$
 
-- **Measurement:** When measured, qubits collapse probabilistically to \(|0\rangle\) or \(|1\rangle\), with probabilities \(|\alpha|^2\) and \(|\beta|^2\).
+- **Measurement:**  
+  $$P(0) = |\alpha|^2,\ P(1) = |\beta|^2.$$
 
-- **Tensor Products:** Multi-qubit systems use tensor products to represent combined states, growing the state space exponentially.
+- **Tensor Products:** Multi-qubit systems use tensor products to represent combined states.
 
-- **Variational Circuits:** Hybrid algorithms use parameterized gates \(U(\theta)\) optimized by classical gradient-based methods to train quantum models.
+- **Variational Circuits:** Parameterized gates \(U(\theta)\) are optimized via classical gradient descent.
 
 ---
 
 ## **Techniques in QML**
-- **Quantum Feature Maps:** Encoding classical data into quantum states.  
-- **Quantum Kernels:** Using quantum circuits to calculate similarity measures for classification tasks.  
-- **Quantum Neural Networks (QNNs):** Parameterized circuits acting like neural layers, trained via hybrid optimization.
+- **Quantum Feature Maps** – encoding classical data into quantum states.
+- **Quantum Kernels** – quantum-powered similarity measures for classification.
+- **Quantum Neural Networks (QNNs)** – parameterized circuits trained via hybrid optimization.
 
 ---
 
 ## **Tools**
-- **Qiskit** (IBM) and **Pennylane** (Xanadu) for building quantum circuits.
-- **NumPy & Python** for classical preprocessing.
-- **Bloch Sphere** for visualizing qubit states and gates.
+- **Qiskit** and **Pennylane** – quantum circuit simulation and design.
+- **NumPy & Python** – classical data preprocessing.
+- **Bloch Sphere** – qubit state visualization.
 
 ---
-
-{: .notice--info}
 
