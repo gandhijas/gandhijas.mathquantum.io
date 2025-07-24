@@ -30,6 +30,8 @@ defaults:
       type: "pages"
     values:
       css: "/assets/css/custom.css"
+
+
 markdown: kramdown
 
 kramdown:
