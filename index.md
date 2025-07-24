@@ -3,14 +3,27 @@ layout: splash
 title: "Quantum Machine Learning"
 permalink: /
 header:
-  overlay_image: /assets/hero.jpg
-  overlay_filter: 0.5
+  overlay_image: /assets/images/hero.jpg
+  overlay_filter: 0.4
   caption: "Where Quantum Physics Meets the Future of Intelligence"
-  actions:
-    - label: "Start with Background"
-      url: "/background/"
 ---
 
-## Project Idea
-Quantum Machine Learning (QML) blends quantum computing principles with artificial intelligence to explore new ways of learning and processing data. This project examines how quantum circuits could be applied to classification problems using quantum-inspired algorithms.
+<div class="hero-content">
+  <h1 class="hero-title">Quantum Machine Learning</h1>
+  <p class="hero-tagline">Unlocking the power of quantum algorithms to revolutionize AI.</p>
+  <p>
+    [Explore Background »](/background/){: .btn-custom }
+    [View Tools & Techniques »](/tools/){: .btn-custom }
+    [Read Goals »](/goals/){: .btn-custom }
+  </p>
+</div>
 
+---
+
+# **Project Idea**
+Quantum Machine Learning (QML) combines quantum mechanics and machine learning to create algorithms that could outperform classical AI models. This project will explore how quantum circuits and qubit-based approaches can enhance learning, classification, and prediction.
+
+---
+
+{: .notice--info}
+**Fun Fact:** A single qubit can represent a superposition of 0 and 1, meaning a quantum model can explore multiple states simultaneously.
