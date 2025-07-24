@@ -17,3 +17,7 @@ nav:
     url: /tools/
   - title: "Goals"
     url: /goals/
+sass:
+  load_paths:
+    - _sass
+    - assets/css
