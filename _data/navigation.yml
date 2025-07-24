@@ -1,6 +1,5 @@
 main:
-  - title: "Home"
-    url: /
+
   - title: "Background"
     url: /background/
   - title: "Tools & Techniques"
