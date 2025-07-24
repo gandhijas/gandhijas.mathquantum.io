@@ -37,3 +37,14 @@ markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax
+
+  include:
+  - assets/css
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      css: "/assets/css/custom.css"
+
