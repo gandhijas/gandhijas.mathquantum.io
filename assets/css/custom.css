@@ -1,7 +1,95 @@
+/* === Global Body Styles === */
 body {
-  background: #f0f6fb !important; /* soft blue */
-  color: black;
+  background-color: #f0f6fb;  /* soft light blue */
+  color: #0a2540;             /* deep navy text */
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
 }
-h1, h2 {
-  color: #004aad !important;
+
+/* === Headings === */
+h1, h2, h3, h4, h5, h6 {
+  color: #004aad;  /* quantum deep blue */
+  font-weight: 700;
+}
+
+/* === Links === */
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #004aad;
+  text-decoration: underline;
+}
+
+/* === Navigation Bar === */
+.masthead {
+  background-color: #0f2f56 !important;  /* dark navy */
+  border-bottom: 3px solid #1e90ff;
+}
+
+.masthead__menu-item a {
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+.masthead__menu-item a:hover {
+  color: #cde6ff !important;
+}
+
+/* === Buttons === */
+a.btn, .btn, .btn-custom {
+  background: linear-gradient(to right, #1e90ff, #004aad);
+  color: #fff !important;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: transform 0.2s ease-in-out;
+}
+
+a.btn:hover, .btn-custom:hover {
+  background: linear-gradient(to right, #004aad, #1e90ff);
+  transform: scale(1.05);
+}
+
+/* === Notices (blue info boxes) === */
+.notice--info {
+  background-color: #e6f4ff;
+  border-left: 6px solid #1e90ff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #0a2540;
+}
+
+/* === Footer === */
+.page__footer {
+  background-color: #0f2f56;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.page__footer a {
+  color: #cde6ff;
+}
+
+.page__footer a:hover {
+  color: #ffffff;
+}
+
+/* === Code Blocks === */
+code, pre {
+  background-color: #eaf1fb;
+  color: #0a2540;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+/* === Page Containers === */
+.page {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
