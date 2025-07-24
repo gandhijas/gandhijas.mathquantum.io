@@ -31,20 +31,18 @@ Quantum Machine Learning (QML) combines quantum mechanics with classical machine
 
 ## **Quantum Machine Learning Techniques**
 
-### 1. Quantum Feature Maps
-Classical data \( x \) can be embedded into a quantum state \( |\phi(x)\rangle \) using a unitary transformation \( U(x) \).  
+1. Quantum Feature Maps  
+Classical data (x) can be embedded into a quantum state (|ϕ(x)⟩) using a unitary transformation (U(x)).  
 These embeddings allow quantum computers to calculate inner products (kernels) faster, useful for classification problems like those solved by classical SVMs.
 
-### 2. Quantum Kernels
-A quantum kernel computes:
-\[
-K(x, x') = |\langle \phi(x) | \phi(x') \rangle|^2
-\]
+2. Quantum Kernels  
+A quantum kernel computes:  
+\[ K(x, x') = |\langle ϕ(x) | ϕ(x') \rangle|^2 \]  
 which measures similarity between data points in a high-dimensional Hilbert space—a concept similar to kernel methods in classical machine learning.
 
-### 3. Variational Quantum Classifiers (VQCs)
-Variational circuits \( U(\theta) \) act as quantum analogs to neural networks.  
-The parameters \( \theta \) are optimized using hybrid quantum-classical loops.
+3. Variational Quantum Classifiers (VQCs)  
+Variational circuits (U(θ)) act as quantum analogs to neural networks.  
+The parameters (θ) are optimized using hybrid quantum-classical loops.
 
 
 ### **4. Quantum Approximate Optimization Algorithm (QAOA)**
