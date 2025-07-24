@@ -20,3 +20,55 @@ a.btn-custom:hover {
   background: linear-gradient(to right, #feb47b, #ff7e5f);
   transform: scale(1.05);
 }
+
+/* Hero Section */
+.hero-content {
+  text-align: center;
+  color: #fff;
+  padding: 6rem 2rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.hero-tagline {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  color: #eee;
+}
+
+/* Gradient Buttons */
+a.btn-custom {
+  display: inline-block;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  margin: 0 0.3rem;
+}
+
+a.btn-custom:hover {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  transform: scale(1.05);
+}
+
+/* Section Headings */
+h1, h2 {
+  color: #333;
+  font-weight: 700;
+}
+
+.notice--info {
+  background: #e6f4ff;
+  border-left: 6px solid #2575fc;
+}
