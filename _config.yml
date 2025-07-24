@@ -30,3 +30,8 @@ defaults:
       type: "pages"
     values:
       css: "/assets/css/custom.css"
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  math_engine: mathjax
