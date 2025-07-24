@@ -1,1 +1,19 @@
+title: "Quantum Machine Learning Project"
+description: "Exploring the Future of AI with Quantum Computing"
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default" # Options: air, dark, neon, etc.
 
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Navigation Tabs
+nav:
+  - title: "Home"
+    url: /
+  - title: "Background"
+    url: /background/
+  - title: "Tools & Techniques"
+    url: /tools/
+  - title: "Goals"
+    url: /goals/
