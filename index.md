@@ -22,4 +22,3 @@ Quantum Machine Learning (QML) combines quantum mechanics and machine learning t
 ---
 
 {: .notice--info}
-**Fun Fact:** A single qubit can represent a superposition of 0 and 1, meaning a quantum model can explore multiple states simultaneously.
