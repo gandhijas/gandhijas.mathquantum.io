@@ -4,8 +4,6 @@ layout: single
 permalink: /tools/
 ---
 
-# Tools & Techniques
-
 Quantum Machine Learning (QML) combines quantum mechanics with classical machine learning principles. It uses quantum circuits as models for encoding data, finding patterns, and performing optimizations.
 
 ---
