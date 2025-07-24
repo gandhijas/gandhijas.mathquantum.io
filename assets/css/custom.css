@@ -1,1 +1,6 @@
+.page__hero--overlay {
+  min-height: 100vh; /* Make hero span entire page height */
+  background-size: cover !important;
+  background-position: center center !important;
+}
 
